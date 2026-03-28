@@ -161,6 +161,14 @@ body {
   font-weight: 500;
   color: var(--text3);
 }
+.card-back-word {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-align: center;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
 .card-def {
   font-size: 22px;
   font-weight: 600;
@@ -266,6 +274,7 @@ body {
   .header { padding: 36px 16px 16px; }
   .logo { font-size: 24px; }
   .card-word { font-size: 36px; }
+  .card-back-word { font-size: 22px; }
   .card-def { font-size: 19px; }
   .card-face { padding: 36px 24px; min-height: 260px; border-radius: 20px; }
   .card-container, .card { min-height: 260px; }
@@ -308,6 +317,7 @@ body {
         <div class="card-counter-inner" id="frontCounter"></div>
       </div>
       <div class="card-face card-back">
+        <div class="card-back-word" id="cardBackWord"></div>
         <div class="card-def" id="cardDef"></div>
         <div class="card-counter-inner" id="backCounter"></div>
       </div>
@@ -361,6 +371,7 @@ function showCard() {
   isFlipped = false;
   const [word, def] = cards[idx];
   document.getElementById('cardWord').textContent = word;
+  document.getElementById('cardBackWord').textContent = word;
   document.getElementById('cardDef').textContent = def;
   const label = (idx + 1) + ' of ' + cards.length;
   document.getElementById('frontCounter').textContent = label;
