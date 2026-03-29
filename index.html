@@ -431,7 +431,7 @@ document.querySelector('.card-container').addEventListener('touchend', e => {
 }, {passive:true});
 
 document.querySelector('.card-container').addEventListener('click', e => {
-  if (!swiped) flip();
+  if (!swiped) { isFlipped ? next() : flip(); }
   swiped = false;
 });
 
