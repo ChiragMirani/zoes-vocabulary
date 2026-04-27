@@ -3,13 +3,146 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Primary SEO Meta Tags -->
+<title>VocabDeck — Free K-12 Vocabulary Flashcards | English, Math & Science</title>
+<meta name="description" content="Free flashcard app with 4,200+ vocabulary words for grades K-12. Covers English vocabulary, Math terms with formulas and shape illustrations, and Science definitions aligned with Georgia Standards of Excellence (GSE) and NGSS. Study anywhere — no login required.">
+<meta name="keywords" content="vocabulary flashcards, K-12 vocabulary, free flashcard app, Georgia Milestones vocabulary, math vocabulary, science vocabulary, English vocabulary, grade school flashcards, SAT vocabulary, study tool, educational app, Georgia Standards of Excellence, NGSS, math terms, science terms, geometry shapes, vocabulary practice, elementary vocabulary, middle school vocabulary, high school vocabulary">
+<meta name="author" content="VocabDeck">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://chiragmirani.github.io/zoes-vocabulary/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chiragmirani.github.io/zoes-vocabulary/">
+<meta property="og:title" content="VocabDeck — Free K-12 Vocabulary Flashcards">
+<meta property="og:description" content="4,200+ vocabulary flashcards for grades K-12. English, Math (with formulas & shape illustrations), and Science — aligned with Georgia Standards and NGSS. Free, no login.">
+<meta property="og:image" content="https://chiragmirani.github.io/zoes-vocabulary/icon-512.png">
+<meta property="og:site_name" content="VocabDeck">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VocabDeck — Free K-12 Vocabulary Flashcards">
+<meta name="twitter:description" content="4,200+ flashcards for grades K-12. English, Math & Science vocabulary with shape illustrations and formulas. Free, no signup.">
+<meta name="twitter:image" content="https://chiragmirani.github.io/zoes-vocabulary/icon-512.png">
+
+<!-- PWA / Apple -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="VocabDeck">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0071e3">
-<title>VocabDeck</title>
+<meta name="application-name" content="VocabDeck">
+
+<!-- Structured Data: WebApplication (AEO - helps AI search engines understand the app) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "VocabDeck",
+  "url": "https://chiragmirani.github.io/zoes-vocabulary/",
+  "description": "Free flashcard app with 4,200+ vocabulary words for grades K-12 covering English, Math, and Science. Aligned with Georgia Standards of Excellence and NGSS.",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "audience": {
+    "@type": "EducationalAudience",
+    "educationalRole": "student",
+    "suggestedMinAge": 5,
+    "suggestedMaxAge": 18
+  },
+  "educationalLevel": ["Kindergarten", "Elementary School", "Middle School", "High School"],
+  "about": [
+    {"@type": "Thing", "name": "English Vocabulary"},
+    {"@type": "Thing", "name": "Mathematics Vocabulary"},
+    {"@type": "Thing", "name": "Science Vocabulary"}
+  ],
+  "featureList": [
+    "4,200+ flashcards across English, Math, and Science",
+    "Grades K through 12",
+    "SVG shape illustrations for geometry and science terms",
+    "Math formulas included in definitions",
+    "Shuffle or alphabetical card ordering",
+    "Works offline as a Progressive Web App",
+    "No login or signup required",
+    "Aligned with Georgia Standards of Excellence and NGSS"
+  ]
+}
+</script>
+
+<!-- Structured Data: FAQPage (AEO - targets AI Overview featured snippets) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is VocabDeck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "VocabDeck is a free online flashcard app with over 4,200 vocabulary words for students in grades K-12. It covers three subjects: English vocabulary, Math terms (with formulas and geometry shape illustrations), and Science definitions. All content is aligned with Georgia Standards of Excellence (GSE) and Next Generation Science Standards (NGSS)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many vocabulary words does VocabDeck have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "VocabDeck has over 4,200 vocabulary flashcards: approximately 1,970 English words, 840 Math terms, and 1,480 Science terms. Each grade level (Kindergarten through Grade 12) has its own curated word list with kid-friendly definitions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is VocabDeck free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, VocabDeck is completely free. There is no login, no signup, no ads, and no in-app purchases. It works in any web browser and can be installed as a Progressive Web App (PWA) on your phone or tablet for offline use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What grades does VocabDeck cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "VocabDeck covers all grade levels from Kindergarten through Grade 12. Students can select their grade from a dropdown menu and study English vocabulary, Math terms (including geometry shapes with visual illustrations and formulas), or Science vocabulary aligned with state standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does VocabDeck align with Georgia Standards of Excellence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. VocabDeck's Math vocabulary is aligned with Georgia's K-12 Mathematics Standards (2021), and Science vocabulary follows the Georgia Standards of Excellence for Science and Next Generation Science Standards (NGSS). The English vocabulary covers Tier 2 academic words appropriate for each grade level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use VocabDeck to study for Georgia Milestones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. VocabDeck's vocabulary is aligned with the Georgia Standards of Excellence that the Georgia Milestones Assessment System tests. Students preparing for the Milestones EOG (End of Grade) or EOC (End of Course) exams can use VocabDeck to review key vocabulary in Math, Science, and English Language Arts."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList (helps search engines show breadcrumbs) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "VocabDeck", "item": "https://chiragmirani.github.io/zoes-vocabulary/"}
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -746,5 +879,30 @@ setSubject(savedSubject);
 gradeSelect.value = savedGrade;
 selectGrade(savedGrade);
 </script>
+
+<!-- SEO: Hidden content for search engine crawlers (not visible to users) -->
+<div style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden" aria-hidden="true">
+<h1>VocabDeck — Free K-12 Vocabulary Flashcards</h1>
+<h2>English, Math & Science Flashcards for Every Grade Level</h2>
+<p>VocabDeck is a free online flashcard app designed for students in Kindergarten through 12th grade. With over 4,200 vocabulary terms across three subjects — English, Math, and Science — students can study the words they need to succeed in school.</p>
+
+<h3>English Vocabulary (1,970+ words)</h3>
+<p>Grade-appropriate English vocabulary words with clear, student-friendly definitions. From basic Kindergarten words like "bloom" and "gentle" to advanced Grade 12 terms like "juxtaposition" and "paradigm." Perfect for building reading comprehension and preparing for standardized tests.</p>
+
+<h3>Math Vocabulary (840+ terms)</h3>
+<p>Complete math terminology from counting and shapes in Kindergarten to calculus concepts in Grade 12. Includes formulas for area, perimeter, volume, circumference, and surface area. Features SVG shape illustrations for geometry terms including triangles, rectangles, parallelograms, trapezoids, circles, cubes, cylinders, cones, spheres, parallel lines, perpendicular lines, and angles. Aligned with Georgia K-12 Mathematics Standards (2021).</p>
+
+<h3>Science Vocabulary (1,480+ terms)</h3>
+<p>Comprehensive science vocabulary aligned with Georgia Standards of Excellence and Next Generation Science Standards (NGSS). Covers Earth Science, Life Science, and Physical Science at every grade level. From weather and seasons in Kindergarten to physics and chemistry in Grade 12. Includes topics tested on Georgia Milestones: cells, ecosystems, forces, energy, atoms, genetics, and more.</p>
+
+<h3>Features</h3>
+<p>Shuffle or alphabetical card ordering. Swipe or tap navigation. Keyboard shortcuts for desktop. Progress tracking. Works offline as a Progressive Web App (PWA). No login, no ads, completely free. Georgia Milestones test prep vocabulary.</p>
+
+<h3>Grade Levels</h3>
+<p>Kindergarten vocabulary, Grade 1 vocabulary, Grade 2 vocabulary, Grade 3 vocabulary, Grade 4 vocabulary, Grade 5 vocabulary, Grade 6 vocabulary, Grade 7 vocabulary, Grade 8 vocabulary, Grade 9 vocabulary, Grade 10 vocabulary, Grade 11 vocabulary, Grade 12 vocabulary.</p>
+
+<h3>Standards Alignment</h3>
+<p>Georgia Standards of Excellence (GSE), Georgia Milestones Assessment System, Next Generation Science Standards (NGSS), Common Core aligned vocabulary, Georgia K-12 Mathematics Standards 2021.</p>
+</div>
 </body>
 </html>
