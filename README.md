@@ -2,7 +2,7 @@
 
 **[Use VocabDeck Now](https://chiragmirani.github.io/zoes-vocabulary/)**
 
-VocabDeck is a free flashcard app with **4,200+ vocabulary words** for students in Kindergarten through 12th grade. Three subjects, every grade level, no login required.
+VocabDeck is a free flashcard app with **4,296 vocabulary words** for students in Kindergarten through 12th grade. Three subjects, every grade level, no login required.
 
 ## Subjects
 
@@ -17,7 +17,7 @@ Earth Science, Life Science, and Physical Science at every grade level. From wea
 
 ## Features
 
-- **4,200+ flashcards** across English, Math, and Science
+- **4,296 flashcards** across English, Math, and Science
 - **Grades K–12** with grade-specific word lists
 - **SVG illustrations** for geometry shapes and science concepts
 - **Math formulas** included in definitions
