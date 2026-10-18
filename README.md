@@ -53,7 +53,7 @@ On mobile: Open the site in Safari or Chrome, then "Add to Home Screen" to insta
 
 ## Also Available on the App Store
 
-VocabDeck is also available as a native iOS app: [VocabDeck on the App Store](https://apps.apple.com/app/vocabdeck)
+VocabDeck is also available as a native iOS app: [VocabDeck on the App Store](https://apps.apple.com/app/id6761394575)
 
 ## Tech Stack
 

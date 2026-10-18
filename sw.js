@@ -1,4 +1,4 @@
-const CACHE = 'zoes-vocab-v2';
+const CACHE = 'zoes-vocab-v3';
 const BASE = self.registration.scope;
 const ASSETS = [
   BASE,
